@@ -1,0 +1,17 @@
+<view class="modal-box">
+  <view class="modal-card">
+    <view class="title">
+      <view class="cloose" bindtap="onCancel">X</view>
+    </view>
+    <scroll-view class="card_body" style="height:600rpx" scroll-y="true">
+      <view class="type">card1</view>
+      <view class="type">card2</view>
+      <view class="type">card3</view>
+      <view class="type">card4</view>
+    </scroll-view>
+    <view class="getNow">
+      <view>立即领取</view>
+    </view>
+  </view>
+  <view class="modal-cover"></view>
+</view>

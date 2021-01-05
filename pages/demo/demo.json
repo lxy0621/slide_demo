@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cardChoose": "/components/cardChoose/cardChoose"
+  }
+}

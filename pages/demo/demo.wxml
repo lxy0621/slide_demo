@@ -1,0 +1,10 @@
+<view class="demo">
+  <view class="packet">
+    <view class="name">这是一个红包~</view>
+    <view class="get" bindtap="chooseCard">点击领取</view>
+  </view>
+</view>
+<!-- 键盘 -->
+<block wx:if="{{showCardChoose}}">
+  <cardChoose bind:onOk="onOk" bind:onCancel="onCancel" />
+</block>
